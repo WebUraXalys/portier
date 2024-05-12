@@ -87,6 +87,31 @@ body{
    border-radius: 8px;
    border: none;
 }
+.cards{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 76px;
+}
+.card{
+   width: 386px;
+   height: 204px;
+   border: none;
+   border-radius: 8px;
+   background-color: #222233;
+   margin-right: 35px;
+}
+.cardImg{
+   margin: 20px 0 4px 20px;
+}
+.cardTexts{
+   margin: 20px;
+}
+.cardHeader{
+   color: #fff;
+}
+.cardText{
+   color: #fff;
+}
 
 @media screen and (max-width: 700px) {
    .linksBox{
