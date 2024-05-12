@@ -96,5 +96,18 @@ body{
       display: block;
       margin-top: 35px;
    }
+   .mainContainer{
+      margin-top: 90px;
+   }
+   .mainHeader{
+      font-size: 40px;
+   }
+   .mainText{
+      font-size: 16px;
+   }
+   .mainButton{
+      width: 100%;
+   }
+
 
 }
