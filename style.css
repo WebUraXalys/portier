@@ -11,6 +11,50 @@ body{
    margin: auto;
 }
 .navbar{
+   height: 88px;
    display: flex;
    justify-content: space-between;
+
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logoText{
+   color: #fff;
+   font-family: DM Sans;
+   font-size: 27px;
+   margin-left: 8px;
+}
+.linksBox{
+   display: flex;
+   align-items: center;
+}
+.link{
+   color: #88888D;
+   font-family: DM Sans;
+   font-size: 16px;
+   text-decoration: none;
+   margin-left: 40px;
+   font-weight: bold;
+}
+.active{
+   color: #fff;
+   margin-left: 0;
+}
+.buttonNavbar{
+   width: 140px;
+   height: 48px;
+   background-color: #222233;
+   border-radius: 8px;
+   border: none;
+   margin-left: 40px;
+}
+.buttonLink{
+   color: #fff;
+   font-family: DM Sans;
+   font-size: 14px;
+   text-decoration: none;
+   font-weight: bold;
+   
 }
